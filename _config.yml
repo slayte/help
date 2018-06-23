@@ -1,0 +1,86 @@
+# Jekyll config
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+#
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+#
+title: SLAYTE
+email: support@slayte.com
+description: This is the SLAYTE documentation site.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Document collections
+#
+# Data in collections is a little tricky to access from templates.  You have to do this to get the collection:
+#
+#    {% assign collection = site.collections | where: "label", {{page.collection}} | first %}
+#
+# Then you can access collection data using {{ collection.yourProp }}
+#
+collections:
+  tutorial:
+    permalink: /:collection/:slug
+    output: true
+    name: 'Tutorial'
+  general:
+    permalink: /:collection/:slug
+    output: true
+    name: 'General'
+  faq:
+    permalink: /:collection/:slug
+    output: true
+    name: 'Frequently Asked Questions'
+  contribution:
+    permalink: /:collection/:slug
+    output: true
+    name: 'Contribution'
+
+# Defaults (per collection)
+#
+# Note: Anything we put under 'values' will be the default front matter value for pages at the given path, and can this
+#       be accessed in a template using {{ page.yourProp }}
+#
+defaults:
+  - scope:
+      path: ""
+      type: tutorial
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: general
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: faq
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: contribution
+    values:
+      layout: page
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+kramdown:
+  input: GFM
+  auto_ids: true # Auto-generate ID's for headings
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    disable: true
