@@ -1,250 +1,250 @@
 {
   "Call_General": {
-    "title": "Calll",
+    "name": "Calll",
     "description": "A call is a generic term for an invitation to submit content. Usually, content is collected in a Submission Phase and reviewed afterwards in a Review Phase by a group of reviewers."
   },
   "Call_Configuration_HeaderImage": {
-    "title": "Header / Banner Image",
+    "name": "Header / Banner Image",
     "description": "Upload a banner image file that you want to appear in your call page. Best dimensions are 4x1 (WxH), e.g. w1600 x h400."
   },
   "Call_Configuration_Communication": {
-    "title": "Communication / Notifications",
+    "name": "Communication / Notifications",
     "description": "Updates in the system can trigger notifications to reviewers and submitters. Configure how frequently these notifications should be delivered."
   },
   "Call_Configuration_ReviewPrivacy": {
-    "title": "Review Privacy",
+    "name": "Review Privacy",
     "description": "To minimize bias, it may be necessary to conceal identity or certain information about the submitter from reviewers. This setting controls the level of privacy"
   },
   "Call_Configuration_ReviewerAllocation": {
-    "title": "Reviewer Allocation",
+    "name": "Reviewer Allocation",
     "description": "This setting controls how submissions that require a review get assigned to a reviewer as a request to review. Configure how reviews are allocated to the reviewer pool. When a new submission arrives, it can either remain unassigned (manual, so that you can manually assign it) or automatically be assigned to one reviewer from the pool, either randomly, to the reviewer with the least number of outstanding reviews (queue) or to the reviewer who our machine learning algorithm determines has the shortest expected review completion time."
   },
   "Call_Configuration_ReviewerAllocationPool": {
-    "title": "Reviewer Pool",
+    "name": "Reviewer Pool",
     "description": "Select or create group of users among who will be chosen who will be assigned as the reviewer for each new submission. This will be selected according to the Review Allocation mechanism, and is disabled for manual allocation."
   },
   "Call_Configuration_ReviewerPool": {
-    "title": "Reviewer Pool",
+    "name": "Reviewer Pool",
     "description": "Select or create group of users among who will be chosen who will be assigned as the reviewer for each new submission. This will be selected according to the Review Allocation mechanism, and is disabled for manual allocation."
   },
   "Call_Attribute_Name": {
-    "title": "Call Name",
+    "name": "Call Name",
     "description": "This is the name of the call that will be seen by everyone—submitters, reviewers, administrators, and the public."
   },
   "Call_Attribute_Introduction": {
-    "title": "Call Introduction",
+    "name": "Call Introduction",
     "description": "The introduction to a call will appear together with the Call Name on the Call Detail page. Edit this introduction to address all prospective submitters—and include information about the call, guidelines, and submission instructions."
   },
   "Call_Configuration_Timezone": {
-    "title": "Call Timezone",
+    "name": "Call Timezone",
     "description": "Choose the time zone of the location for the call. This will ensure the times you specify as deadlines will be enforced in this timezone."
   },
   "CallPhases_General": {
-    "title": "Call Phases",
+    "name": "Call Phases",
     "description": "As an administrator, you can add submission and review phases to handle submissions to a call. Add at least one submission phase to receive submissions to the call. Also, add at least one review phase for reviewing submissions. Be sure to set the Times for each phase such that no phase overlaps any other. If care isn’t taken to avoid this, then submitters might submit to the wrong phase."
   },
   "CallPhases_Times": {
-    "title": "Times",
+    "name": "Times",
     "description": "Set the start and end date of this phase. If you are establishing multiple phases, ensure that that there are no two submission phases that have overlapping dates (review phases may overlap)"
   },
   "CallPhases_SubmissionForm": {
-    "title": "Submission Form",
+    "name": "Submission Form",
     "description": "Create the form for this submission phase. Add sections to the form and configure each section with fields, options and other features."
   },
   "CallPhases_SubmissionSettings_Group": {
-    "title": "Who can submit?",
+    "name": "Who can submit?",
     "description": "Set the access restrictions for types of users who can submit into this phase. A variety of different types of restrictions are available."
   },
   "CallPhases_SubmissionSettings_NameGeneration": {
-    "title": "Submission Name",
+    "name": "Submission Name",
     "description": " Specify the scheme for identifying each submission to this phase. Choose from running numbers, colors, a random number, or the contents of a field in the submission form."
   },
   "CallPhases_SubmissionSettings_AllowWithdrawal": {
-    "title": "Allow Submission Withdrawal",
+    "name": "Allow Submission Withdrawal",
     "description": "Indicate here whether you will accept the withdrawal of a submission. The setting you choose here applies to all submitters to this phase."
   },
   "CallPhases_ReviewForm": {
-    "title": "Review Form",
+    "name": "Review Form",
     "description": "Create the form for this review phase. Add sections to the form and configure each section with fields, options and other features."
   },
   "CallPhases_ReviewSettings_Group": {
-    "title": "Reviewer Group",
+    "name": "Reviewer Group",
     "description": "Set the access restrictions for types of users who can review submissions in this phase."
   },
   "FormEditor_Forms": {
-    "title": "Forms",
+    "name": "Forms",
     "description": "Create forms to be used in the template."
   },
   "FormEditor_Sections": {
-    "title": "Form Section",
-    "description": "A section is a visual distinction between fields and has a title that will be rendered at the beginning of the section."
+    "name": "Form Section",
+    "description": "A section is a visual distinction between fields and has a name that will be rendered at the beginning of the section."
   },
   "FormEditor_SectionName": {
-    "title": "Form Section Title",
-    "description": "Title that will be rendered at the top of each section."
+    "name": "Form Section name",
+    "description": "name that will be rendered at the top of each section."
   },
   "FormEditor_Fields": {
-    "title": "Form Field",
-    "description": "A field is what the user who fills out the form will fill in, e.g. a text field. Each field has a title and several options, some of which are related to the field-type, others are generic (e.g. whether the field is optional)"
+    "name": "Form Field",
+    "description": "A field is what the user who fills out the form will fill in, e.g. a text field. Each field has a name and several options, some of which are related to the field-type, others are generic (e.g. whether the field is optional)"
   },
   "FormEditor_FieldName": {
-    "title": "Field Label",
+    "name": "Field Label",
     "description": "The label that will be displayed on each field."
   },
   "FormEditor_FieldOptional": {
-    "title": "Optional Field",
+    "name": "Optional Field",
     "description": "The field is not required to be filled out."
   },
   "FormEditor_FieldIsPrivateSubmission": {
-    "title": "Invisible field to submitter",
+    "name": "Invisible field to submitter",
     "description": "Use this option to indicate that a certain field is invisible to the user filling out the form."
   },
   "FormEditor_FieldIsPrivateReviewBlind": {
-    "title": "Invisible field during blind review",
+    "name": "Invisible field during blind review",
     "description": "The value captured from the submitter will not be displayed to the reviewer if this option is checked, AND the review settings are set to Blind Review."
   },
   "FormEditor_FieldIsPrivateReview": {
-    "title": "Invisible field during review",
+    "name": "Invisible field during review",
     "description": "The value captured from the submitter will not be displayed to the reviewer if this option is checked."
   },
   "FormEditor_FieldSkipLogic": {
-    "title": "Skip Logic",
+    "name": "Skip Logic",
     "description": "Mark certain fields on the form as only visible/required if selected options of the Skip Logic Field are chosen. E.g. a dropdown for “category” could mark follow-up questions to each category as only required if the respective category was selected first and hide the irrelevant follow-up questions otherwise."
   },
   "CallPhases_PhaseDependencies": {
-    "title": "Phase Dependencies",
+    "name": "Phase Dependencies",
     "description": "Phases in a template follow a certain structure. There can be an arbitrary number of submission phases, and each submission phase can have review phases that depend on it."
   },
   "UserGroups_General": {
-    "title": "User Groups",
+    "name": "User Groups",
     "description": "Users in the system can be grouped, and those groups can be given a name. When configuring a call, you can search through user groups and find the group that you created as the reviewer group for that particular call, or add a restriction to only allow submissions from such a group."
   },
   "Review_CannotReviewRightNow": {
-    "title": "No Review Required",
+    "name": "No Review Required",
     "description": "At this point there is no review required from you - Please ensure you are accessing the correct submission to review, and that the review phase is currently active."
   },
   "Submission_Message_To_Submitter": {
-    "title": "Bulk Message to Submitters",
+    "name": "Bulk Message to Submitters",
     "description": "Select the users you would like to send a bulk message to. In the dialog you can configure subject and message body to be sent."
   },
   "Submission_Tags": {
-    "title": "Tagging Submissions",
+    "name": "Tagging Submissions",
     "description": "Tags are categories you can assign to submissions, either in bulk or individually. No need to define which categories you need, simply create a new tag on the fly. Fully utilize the power of tags by building custom views to filter for only certain tags."
   },
   "Jobs_Introduction": {
-    "title": "Jobs",
+    "name": "Jobs",
     "description": "Jobs are an advanced feature that allow monitoring and controlling long-running tasks. Contact support for further details."
   },
   "SubmissionNotAllowed": {
-    "title": "Cannot submit right now",
+    "name": "Cannot submit right now",
     "description": "You cannot make a submission to this call at this time. The administrator has configured that only certain accounts are able to submit during certain times. It appears the account you're submitting from doesn't meet those criteria. We recommend you get in touch with the call administrator directly if further clarification is required."
   },
   "Call_CommitteeSelection": {
-    "title": "Committe Selection Call",
+    "name": "Committe Selection Call",
     "description": "The Committe Selection Call has a custom template"
   },
   "StatusMessage_Submission_Not_Found": {
-    "title": "Submission Not Found",
+    "name": "Submission Not Found",
     "description": "We could not find the submission you are trying to view. Double-check the link/url and try again."
   },
   "StatusMessage_Review_Not_Found": {
-    "title": "Review Not Found",
+    "name": "Review Not Found",
     "description": "We could not find the review you are trying to view. Double-check the link/url and try again."
   },
   "StatusMessage_Review_Error": {
-    "title": "Review Error",
+    "name": "Review Error",
     "description": "Our servers weren't able to obtain the requested review. This is most likely to be an error in our servers, and we recommend you get in touch with support."
   },
   "StatusMessage_PageNotFound404": {
-    "title": "Not Found",
+    "name": "Not Found",
     "description": "The page you requested to view doesn't exist, or has been moved or deleted. Double-check the link/url and try again."
   },
   "CallPhases_SubmissionSettings_AlwaysBCC": {
-    "title": "Email Blind Copy",
+    "name": "Email Blind Copy",
     "description": "Check this box to blind/bcc-copy specific e-mail addresses for any event happening in this phase. In the field, separate each email address with a comma. Whoever receives the original notification will not know that these email addresses also received the notification."
   },
   "CallPhases_SubmissionSettings_MaxSubmissions": {
-    "title": "Maximum Number of Submissions per Submitter",
+    "name": "Maximum Number of Submissions per Submitter",
     "description": "Set the maximum number of submissions that you will allow for a single submitter."
   },
   "CallPhases_SubmissionSettings_Restrictions_RegularExpression": {
-    "title": "Regular Expression",
+    "name": "Regular Expression",
     "description": "Use a regular expression to describe a restriction on a property. Learn how to build regular expressions using e.g. https://regexone.com"
   },
   "CallPhases_ReviewSettings_EventCommunication": {
-    "title": "Event Communication / Notifications",
+    "name": "Event Communication / Notifications",
     "description": "Updates in the system can trigger notifications to administrators, reviewers, and submitters. The administrator can configure the frequency of these notifications."
   },
   "CallPhases_ReviewSettings_AlwaysBCC": {
-    "title": "Email Blind Copy",
+    "name": "Email Blind Copy",
     "description": "Check this box to blind/bcc-copy specific e-mail addresses for any event happening in this phase. In the field, separate each email address with a comma. Whoever receives the original notification will not know that these email addresses also received the notification."
   },
   "CallPhases_PaymentOption": {
-    "title": "Require Payment ot Submit",
+    "name": "Require Payment ot Submit",
     "description": "Configure to enforce that to make a submission a payment has to be made. Select the payment processor to use (e.g. Impexium, or Stripe) and which product should be used to process the payment."
   },
   "Mail_EventTypes": {
-    "title": "Notification Events",
+    "name": "Notification Events",
     "description": "Some events are configurable to send a notification message when the event occurs. Choose which event applies to this message template."
   },
   "Mail_Placeholders": {
-    "title": "Placeholders",
+    "name": "Placeholders",
     "description": "Define custom content for any of notifications that are sent for the event type chosen in the drop-down. These placeholders help you to mention specific aspects of the event, call, organization, submission, or recipient name (reviewer name)."
   },
   "Mail_Subject": {
-    "title": "Subject",
+    "name": "Subject",
     "description": "Much like the subject of an email message. Enter the subject of the notification that will be sent to the recipient."
   },
   "Mail_Content": {
-    "title": "Content",
+    "name": "Content",
     "description": "Enter the main content of the message in the rich-text editor."
   },
   "Query_CustomView": {
-    "title": "Custom View",
+    "name": "Custom View",
     "description": "Customize a view to suit your needs and customize both the filters and the result fields. Custom views can be saved, shared and exported."
   },
   "Query_ResultFields": {
-    "title": "Result Fields",
+    "name": "Result Fields",
     "description": "Customize which columns will be displayed and included in the export. Choose from all fields in the submission form, review form, and a variety of system provided fields such as “Review Score” and “Tags”."
   },
   "Query_FilterCriteria": {
-    "title": "Filter Criteria",
+    "name": "Filter Criteria",
     "description": "Add filters to your query, that limit the results it retrieves to only include those who match. Choose from all fields in the submission form, review form, and a variety of system provided fields such as “Review Score” and “Tags”."
   },
   "Query_LoadView": {
-    "title": "Saving and Loading a Custom View",
+    "name": "Saving and Loading a Custom View",
     "description": "Save a custom view so that you can later load it again. Use this feature to maintain a variety of different views and load them when required."
   },
   "Query_Share": {
-    "title": "Sharing a Custom View",
+    "name": "Sharing a Custom View",
     "description": "A custom view can be shared with your colleagues. Upon sharing, they will find the view in the 'Load View' list."
   },
   "Query_Default": {
-    "title": "Default View",
+    "name": "Default View",
     "description": "Mark a custom view as default for a call to automatically load it when viewing the list of submission in the call."
   },
   "Query_Export": {
-    "title": "Exporting",
+    "name": "Exporting",
     "description": "You may “Export” or “Export All” the submissions you are currently viewing (including the Filter Criteria and Result Fields as configured in the Custom View). Export All allows a seamless export if there are more than 50 submissions."
   },
   "Review_Assignment": {
-    "title": "Modify Submission Reviewer",
+    "name": "Modify Submission Reviewer",
     "description": "On each submission, or in bulk, configure who is assigned to review a submission. Search the user database to find the reviewer. You can remove an existing reviewer who hasn’t completed their assignment."
   },
   "Submission_Status": {
-    "title": "Accept/Reject Submission",
+    "name": "Accept/Reject Submission",
     "description": "Submissions have states: Open (default), Accepted and Rejected. These are not visible to the submitter or reviewer and trigger no notifications in the system. They can be changed back to Open or otherwise at any time. You may filter for the status."
   },
   "Submission_Phase": {
-    "title": "Manage call phase",
+    "name": "Manage call phase",
     "description": "In a configuration where multiple review phases overlap, the admin controls in which phase a submission is. To trigger e.g. a “Senior Review”, the admin moves the submission to the “Senior Review” phase."
   },
   "Submission_ReviewImport": {
-    "title": "Importing Reviews",
+    "name": "Importing Reviews",
     "description": "In an environment where no stable internet connection is available, reviews may be conducted offline. You can generate a template, take this in Excel and fill out offline, then import it later to apply the reviews."
   },
   "Submission_BulkActions": {
-    "title": "Bulk Actions",
+    "name": "Bulk Actions",
     "description": "Select multiple submissions to apply certain actions to all selected. You may choose to tag, accept/reject or modify the review assignment or call phase. In addition the following actions are available only as bulk-actions: Sending a message to selected submission authors, and importing reviews; In an environment where no stable internet connection is available, reviews may be conducted offline. You can generate a template, take this in Excel and fill out offline, then import it later to apply the reviews."
   }
 }
