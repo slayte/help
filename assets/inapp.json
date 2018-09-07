@@ -246,5 +246,9 @@
   "Submission_BulkActions": {
     "name": "Bulk Actions",
     "description": "Select multiple submissions to apply certain actions to all selected. You may choose to tag, accept/reject or modify the review assignment or call phase. In addition the following actions are available only as bulk-actions: Sending a message to selected submission authors, and importing reviews; In an environment where no stable internet connection is available, reviews may be conducted offline. You can generate a template, take this in Excel and fill out offline, then import it later to apply the reviews."
-  }
+  },
+  "FormEditor_limited": {
+    "name": "FormEditor limited editing",
+    "description": "Submissions have been recieved for this form, you can only change the labels of the fields and static text",
+  },
 }
