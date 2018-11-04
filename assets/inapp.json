@@ -249,6 +249,6 @@
   },
   "FormEditor_limited": {
     "name": "FormEditor limited editing",
-    "description": "Submissions have been recieved for this form, you can only change the labels of the fields and static text",
-  },
+    "description": "Submissions have been recieved for this form, you can only change the labels of the fields and static text"
+  }
 }
