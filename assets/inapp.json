@@ -250,5 +250,9 @@
   "FormEditor_limited": {
     "name": "FormEditor limited editing",
     "description": "Submissions have been recieved for this form, you can only change the labels of the fields and static text"
+  },
+  "AuthorRoles": {
+    "name": "Print author roles",
+    "description": "Checking this causes primary authors to be printed with an asterisk(*)"
   }
 }
