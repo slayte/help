@@ -254,5 +254,9 @@
   "AuthorRoles": {
     "name": "Print author roles",
     "description": "Checking this causes primary authors to be printed with an asterisk(*)"
+  },
+  "SubscribeCalendar": {
+    "name": "How to subscribe to your appointments ",
+    "description": "On this tab you can additionally export your appointment data into an external calendar e.g. Google/Outlook Calendar or even on your phone. To do this:\n\n\nOn the top-left corner of this page click Subscribe Calendar.\nCopy the URL link displayed.\nIn an external calendar of your choice (e.g. Google Calendar) find the option to Add a New Calendar using URL.\nPaste your copied URL from Slayte into this space provided to paste a new calendar URL.\nSave changes."
   }
 }
