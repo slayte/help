@@ -39,6 +39,10 @@
     "name": "Call Timezone",
     "description": "Choose the time zone of the location for the call. This will ensure the times you specify as deadlines will be enforced in this timezone."
   },
+  "Call_Refetch_ServerFields": {
+    "name": "Re-fetch server fields",
+    "description": "Clicking this button re-fetches all serverfields of all submissions in this call, and updates them to their new value. \n  This change can't be undone"
+  },
   "CallPhases_General": {
     "name": "Call Phases",
     "description": "As an administrator, you can add submission and review phases to handle submissions to a call. Add at least one submission phase to receive submissions to the call. Also, add at least one review phase for reviewing submissions. Be sure to set the Times for each phase such that no phase overlaps any other. If care isn’t taken to avoid this, then submitters might submit to the wrong phase."
