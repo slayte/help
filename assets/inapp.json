@@ -266,5 +266,9 @@
   "SubscribeCalendar": {
     "name": "How to subscribe to your appointments ",
     "description": "On this tab you can additionally export your appointment data into an external calendar e.g. Google/Outlook Calendar or even on your phone. To do this:\n\n\nOn the top-left corner of this page click Subscribe Calendar.\nCopy the URL link displayed.\nIn an external calendar of your choice (e.g. Google Calendar) find the option to Add a New Calendar using URL.\nPaste your copied URL from Slayte into this space provided to paste a new calendar URL.\nSave changes."
+  },
+  "Grant_SpecifyEachPayment": {
+    "name": "Specify Each Payment",
+    "description": "By default, Slayte creates and calculates the amount of each payment based on duration and amount which you enter when accepting an awardee.\nIf you'd like more control, select \"Specify each payment\" -  Then you create exactly the template with payment-events for an awardee, and when accepting the awardee we compute the value of each payment event created by you (also based on sponsoring amount and duration). You may add template payment events with percentage- or total-amount which will turn into those calculated payment-events on the awardee profile when accepted."
   }
 }
