@@ -265,6 +265,6 @@
   },
   "Grant_SpecifyEachPayment": {
     "name": "Specify Each Payment",
-    "description": "By default, Slayte creates and calculates the amount of each payment based on duration and amount which you enter when accepting an awardee.\nIf you'd like more control, select "Specify each payment" -  Then you create exactly the template with payment-events for an awardee, and when accepting the awardee we compute the value of each payment event created by you (also based on sponsoring amount and duration). You may add template payment events with percentage- or total-amount which will turn into those calculated payment-events on the awardee profile when accepted."
+    "description": "By default, Slayte creates and calculates the amount of each payment based on duration and amount which you enter when accepting an awardee.\nIf you'd like more control, select \"Specify each payment\" -  Then you create exactly the template with payment-events for an awardee, and when accepting the awardee we compute the value of each payment event created by you (also based on sponsoring amount and duration). You may add template payment events with percentage- or total-amount which will turn into those calculated payment-events on the awardee profile when accepted."
   }
 }
