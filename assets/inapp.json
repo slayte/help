@@ -306,5 +306,9 @@
   "Report_Group_Default": {
     "name": "Default Report",
     "description": "Mark a custom report as default for a call to automatically load it when viewing the list of reports in the call."
+  },
+  "SuperAdmin_PolicySetting": {
+    "name": "Policy setting",
+    "description": "Policies can be created to display a specific notice to users when they visit your call page.\nThese can be used to e.g. provide GDPR compliant privacy notices before users browse your call page."
   }
 }
