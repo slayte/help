@@ -187,6 +187,10 @@
     "name": "Require Payment ot Submit",
     "description": "Configure to enforce that to make a submission a payment has to be made. Select the payment processor to use (e.g. Impexium, or Stripe) and which product should be used to process the payment."
   },
+  "Grant_CopyTemplates": {
+    "name": "Copy the templates of the grant",
+    "description": "Enabling this will copy the templates of the grant which is usefull if we want to modify the template of the new grant but not change the template of the original one"
+  },
   "Grant_Message_Template_AlwaysBCC": {
     "name": "Email Blind Copy",
     "description": "Check this box to blind/bcc-copy specific e-mail addresses for any event happening in this grant. In the field, separate each email address with a comma. Whoever receives the original notification will not know that these email addresses also received the notification."
