@@ -189,7 +189,7 @@
   },
   "Grant_CopyTemplates": {
     "name": "Copy the templates of the grant",
-    "description": "Enabling this will copy the templates of the grant which is usefull if we want to modify the template of the new grant but not change the template of the original one"
+    "description": "Not copying the templates will link the copy to the original - Changing forms in the copy will modify the original, and vice versa. We recommend you disconnect the copy from the original (by copying the templates), but if you'd like to keep the templates linked up, uncheck the \"Copy templates\" box."
   },
   "Grant_Message_Template_AlwaysBCC": {
     "name": "Email Blind Copy",
