@@ -278,5 +278,9 @@
   "Grant_EventTemplate": {
     "name": "Event Template",
     "description": "Configure the default events to be created for an awardee. When marked as \"active\" Slayte will create all those events configured here on that awardee's profile, in reference to the information provided when marked active (such as payment amount, sponsoring duration etc.).\nNote: To specify each payment template-event individually the option \"Specify each payment\" needs to be enabled. Otherwise, the payment events will be created all-in-one when the awardee is marked active depending on your configuration then."
+  },
+  "Competition_CloselyScheduledCompetitors": {
+    "name": "Closely Scheduled Competitors",
+    "description": "Below are listed all competitors across all non-closed competitions whose assigned performance timeslot has a difference to another performance-timeslot of its duration or less."
   }
 }
