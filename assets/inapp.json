@@ -289,6 +289,6 @@
   },
   "Component_DateRangePicker": {
     "name": "Date Range Picker",
-    "description": "Pick two dates, begin- and end-date, by navigating back and forth and clicking on the dates of choice. You can also directly enter the dates using your keyboard - Simply type the date in the format 'MMM D, YYY', e.g. Apr 4, 1985. See below:\n[img height=447 width=561]http://support-static.slayte.com/component-datepicker-format.gif[/img]"
+    "description": "Pick two dates, begin- and end-date, by navigating back and forth and clicking on the dates of choice. You can also directly enter the dates using your keyboard - Simply type the date in the format 'MMM D, YYY', e.g. Sep 1, 1985. See below:\n[img height=451 width=564]http://support-static.slayte.com/component-daterangepicker-format.gif[/img]"
   }
 }
