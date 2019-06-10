@@ -282,5 +282,9 @@
   "Competition_CloselyScheduledCompetitors": {
     "name": "Closely Scheduled Competitors",
     "description": "Below are listed all competitors across all non-closed competitions whose assigned performance timeslot has a difference to another performance-timeslot of its duration or less."
+  },
+  "Component_DatePicker": {
+    "name": "Date Picker",
+    "description": "Pick a date by navigating back and forth and clicking on the date of choice, or directly enter the date using your keyboard. To enter the date, type the date in the format 'MMM D, YYY', e.g. Apr 4, 1985. See below:\n[img height=447 width=561]http://support-static.slayte.com/component-datepicker-format.gif[/img]"
   }
 }
