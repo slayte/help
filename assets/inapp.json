@@ -310,5 +310,9 @@
   "SuperAdmin_PolicySetting": {
     "name": "Policy setting",
     "description": "When a user logs in and they have not previously approved a policy you created, then they will be prompted to do so. Use this for privacy/terms or dealing with Cookies and GDPR."
+  },
+  "Mail_Introduction": {
+    "name": "Mail Introduction",
+    "description": "Message Templates can be used to create default messages that will be sent to users depending on an event type of your choice."
   }
 }
