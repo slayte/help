@@ -314,5 +314,9 @@
   "Mail_Introduction": {
     "name": "Mail Introduction",
     "description": "Message Templates can be used to create default messages that will be sent to users depending on an event type of your choice."
+  },
+  "Admin_ConciseStyle": {
+    "name": "Admin Concise Style",
+    "description": " This option creates a more concise-looking Submission Form and reduces the line spacing on the Submission Form page."
   }
 }
