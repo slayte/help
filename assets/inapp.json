@@ -290,5 +290,13 @@
   "Component_DateRangePicker": {
     "name": "Date Range Picker",
     "description": "Pick two dates, begin- and end-date, by navigating back and forth and clicking on the dates of choice. You can also directly enter the dates using your keyboard - Simply type the date in the format 'MMM D, YYY', e.g. Sep 1, 1985. See below:\n[img height=451 width=564]http://support-static.slayte.com/component-daterangepicker-format.gif[/img]"
+  },
+  "Report_Sharing": {
+    "name": "Sharing a Custom Report",
+    "description": "A custom report can be shared with your colleagues. Upon sharing, they will find the report in the 'Load Report' list."
+  },
+  "Report_Group_Default": {
+    "name": "Default Report",
+    "description": "Mark a custom report as default for a call to automatically load it when viewing the list of reports in the call."
   }
 }
