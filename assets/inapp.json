@@ -313,10 +313,10 @@
   },
   "Mail_Introduction": {
     "name": "Mail Introduction",
-    "description": "Message Templates can be used to create default messages that will be sent to users depending on an event type of your choice."
+    "description": "Use Message Templates to build custom and re-usable messages with mail-merge placeholders. Each Message Template is built for a specific type of event, e.g. \"Submission Received\", which sets the available placeholders."
   },
   "Admin_ConciseStyle": {
     "name": "Admin Concise Style",
-    "description": " This option creates a more concise-looking Submission Form and reduces the line spacing on the Submission Form page."
+    "description": "Using concise style will compress the layout of the Submission Form and reduce overall spacing."
   }
 }
