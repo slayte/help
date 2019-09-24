@@ -306,5 +306,9 @@
   "Report_Group_Default": {
     "name": "Default Report",
     "description": "Mark a custom report as default for a call to automatically load it when viewing the list of reports in the call."
+  },
+  "SuperAdmin_PolicySetting": {
+    "name": "Policy setting",
+    "description": "When a user logs in and they have not previously approved a policy you created, then they will be prompted to do so. Use this for privacy/terms or dealing with Cookies and GDPR."
   }
 }
