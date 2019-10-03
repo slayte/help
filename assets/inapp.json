@@ -310,5 +310,13 @@
   "SuperAdmin_PolicySetting": {
     "name": "Policy setting",
     "description": "When a user logs in and they have not previously approved a policy you created, then they will be prompted to do so. Use this for privacy/terms or dealing with Cookies and GDPR."
+  },
+  "Mail_Introduction": {
+    "name": "Mail Introduction",
+    "description": "Use Message Templates to build custom and re-usable messages with mail-merge placeholders. Each Message Template is built for a specific type of event, e.g. \"Submission Received\", which sets the available placeholders."
+  },
+  "Admin_ConciseStyle": {
+    "name": "Admin Concise Style",
+    "description": "Using concise style will compress the layout of the Submission Form and reduce overall spacing."
   }
 }
