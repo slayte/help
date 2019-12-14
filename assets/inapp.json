@@ -322,5 +322,9 @@
   "Event_Template_Selection_Mode": {
     "name": "Template Selection Mode",
     "description": "Choose a template selection mode. 'Copy' makes a new copy of the selected template (any edits made to the copied template will not reflect on the original), 'Link' will reuse a previously made template (any changes made to the template will be reflected in all other events using the template as well)."
+  },
+  "EducationProgram_VerificationPassingScore": {
+    "name": "Verification Passing Score",
+    "description": "Set the percentage which the claimer has to pass in order to claim."
   }
 }
