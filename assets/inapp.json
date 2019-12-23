@@ -465,7 +465,7 @@
   },
   "EducationProgram_Filtering": {
     "name": "Filtering Programs",
-    "description": "Filter programs based on your preferences."
+    "description": "Specify criteria on which programs will be shown."
   },
   "EducationProgram_Status_Actions": {
     "name": "Status Actions",
