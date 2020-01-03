@@ -458,5 +458,41 @@
   "EducationProgram_Item_VerificationTemplate": {
     "name": "Verification Template",
     "description": "Set the template which has to be filled out by the user who is attempting to claim this item."
+  },
+  "EducationProgram_Status_Actions": {
+    "name": "Status Actions",
+    "description": "Status actions can be performed to change the status of the program."
+  },
+  "EducationProgram_Status_Activate": {
+    "name": "Activate Claiming",
+    "description": "Once a program has been actived the users can make claims(Additionally for the claimer to be able to claim the begin and end date must be set correct and the user must pass the restrictions)."
+  },
+  "EducationProgram_Status_Pause": {
+    "name": "Pause Claiming",
+    "description": "When a program is paused then claiming is disabled."
+  },
+  "EducationProgram_Status_Archive": {
+    "name": "Archive Program",
+    "description": "Archive a program it's not being used frequently and might be deleted in the future(After archiving delete option is enabled)."
+  },
+  "EducationProgram_Status_Unarchive": {
+    "name": "Unarchive Program",
+    "description": "Unarchiving a program returns it in a paused state where claiming hasn't been enabled(This action can be reverted)."
+  },
+  "EducationProgram_Delete": {
+    "name": "Delete Program",
+    "description": "Deleting a program is an irreversible action and will remove the program and all related data."
+  },
+  "EducationProgram_Description": {
+    "name": "Program Description",
+    "description": "Add the description that will be displayed to the claimer."
+  },
+  "EducationProgram_ClaimLabel": {
+    "name": "Claim Button Label",
+    "description": "The text set here will be displayed on the claim button."
+  },
+  "EducationProgram_ItemLabel": {
+    "name": "Item Label",
+    "description": "This label will be used to refer to the items list wherever it's being rendered."
   }
 }
