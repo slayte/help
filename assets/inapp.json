@@ -459,6 +459,10 @@
     "name": "Verification Template",
     "description": "Set the template which has to be filled out by the user who is attempting to claim this item."
   },
+  "EducationProgram_Filtering": {
+    "name": "Filtering Programs",
+    "description": "Filter programs based on your preferences."
+  },
   "EducationProgram_Status_Actions": {
     "name": "Status Actions",
     "description": "Status actions can be performed to change the status of the program."
