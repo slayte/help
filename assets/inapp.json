@@ -326,5 +326,181 @@
   "EducationProgram_VerificationPassingScore": {
     "name": "Verification Passing Score",
     "description": "Set the percentage which the claimer has to pass in order to claim."
+  },
+  "EducationProgram_Name": {
+    "name": "Program Name",
+    "description": "Choose a name by which this program will be identified."
+  },
+  "EducationProgram_Type": {
+    "name": "Program Type",
+    "description": "A program can be of type custom or of type session. If the type is session then this program has been generated using sessions in event."
+  },
+  "EducationProgram_Category": {
+    "name": "Program Category",
+    "description": "Assign a category to the program. The category is important since it can be used to filter by and can also be important for the claimer to filter the programs by."
+  },
+  "EducationProgram_BeginDate": {
+    "name": "Program Begin Date",
+    "description": "Set the start date from which the users should be permitted to claim."
+  },
+  "EducationProgram_EndDate": {
+    "name": "Program End Date",
+    "description": "Set the end date till which the users will be permitted to claim."
+  },
+  "EducationProgram_SubmitBehavior": {
+    "name": "Submit Behavior",
+    "description": "Defines when the claims will be submited. Either immediately after claiming or by manually clicking on submit claims."
+  },
+  "EducationProgram_SubmitActions": {
+    "name": "Submit Actions",
+    "description": "Submit Actions can be used to perform some external action on submit(e.g we can configure a submit actions to grant credits in impexium on submit)."
+  },
+  "EducationProgram_UseUsers": {
+    "name": "Use Users",
+    "description": "Enabeling this will allow us to add a list of users and a template which the claiming user would have to fill out for each of these users in order to complete their claim."
+  },
+  "EducationProgram_UsersLabel": {
+    "name": "Users Label",
+    "description": "This label will be used to refer to the users list wherever it's being rendered."
+  },
+  "EducationProgram_UseRatables": {
+    "name": "Use Ratables",
+    "description": "Enabeling this will allow us to add a list of ratables which the claiming user would have to fill out in order to complete their claim."
+  },
+  "EducationProgram_RatablesLabel": {
+    "name": "Ratables Label",
+    "description": "This label will be used to refer to the ratables list wherever it's being rendered."
+  },
+  "EducationProgram_RatablesScale": {
+    "name": "Ratables Scale",
+    "description": "All ratables can have a value from and to the selected values here."
+  },
+  "EducationProgram_Status": {
+    "name": "Status",
+    "description": "Describes the status of the program."
+  },
+  "EducationProgram_UseVerification": {
+    "name": "Use Verification",
+    "description": "Enabeling this will allow us to add a template which the claiming user would have to fill out with the correct answers in order to complete their claim."
+  },
+  "EducationProgram_VerificationMaxAttempts": {
+    "name": "Verification Max Attempts",
+    "description": "Specifies the maximum number of attempts the user has to provide the correct answers for the verification template."
+  },
+  "EducationProgram_VerificationPassingScore": {
+    "name": "Verification Passing Score",
+    "description": "Set the percentage of correct answers the user has to provide for the verification template in order to claim."
+  },
+  "EducationProgram_FeedbackTemplate": {
+    "name": "Feedback Template",
+    "description": "Set the feedback template the user has to fill out in order to complete their claim."
+  },
+  "EducationProgram_SpeakerTemplate": {
+    "name": "Speaker Template",
+    "description": "Set the users template the claiming user has to fill out for each user in the users list in order to complete their claim."
+  },
+  "EducationProgram_ProviderCertificateOverrides": {
+    "name": "Provider Certificate Overrides",
+    "description": "Override the default certificate of provider for this program."
+  },
+  "EducationProgram_UserRestrictions": {
+    "name": "User Restrictions",
+    "description": "Specify restrictions for which users can claim in this program."
+  },
+  "EducationProgram_Action_ActionType": {
+    "name": "Action Type",
+    "description": "Specify the action type that will be performed on submit."
+  },
+  "EducationProgram_Item_Name": {
+    "name": "Name",
+    "description": "Specify the name of the Program Item."
+  },
+  "EducationProgram_Item_Credits": {
+    "name": "Credits",
+    "description": "The list of credits that can be claimed from this item."
+  },
+  "EducationProgram_Item_Credit_Provider": {
+    "name": "Provider",
+    "description": "Select a provider and the amount of credits that can be claimed."
+  },
+  "EducationProgram_Item_Ratables": {
+    "name": "Ratables",
+    "description": "The list of ratables for which the claiming user can provide a rating."
+  },
+  "EducationProgram_Item_Users": {
+    "name": "Users",
+    "description": "The list of users for which the claiming user has to fill out the users template in order to complete the claim."
+  },
+  "EducationProvider_Name": {
+    "name": "Name",
+    "description": "Specify the provider name."
+  },
+  "EducationProvider_CreditName": {
+    "name": "CreditName",
+    "description": "Specify the provider credit name."
+  },
+  "EducationProvider_CertificateTemplate": {
+    "name": "CertificateTemplate",
+    "description": "Specify the certificate template for the provider."
+  },
+  "EducationProvider_ProfileFields": {
+    "name": "ProfileFields",
+    "description": "The list of profile fields for this provider that the user has to fill out in order to submit their claims."
+  },
+  "EducationProvider_ProfileField_PlaceholderName": {
+    "name": "PlaceholderName",
+    "description": "Specify the profile field placeholder name."
+  },
+  "EducationProvider_ProfileField_FieldName": {
+    "name": "EducationProvider_FieldName",
+    "description": "Specify the profile field field name."
+  },
+  "EducationProgram_ExternalId": {
+    "name": "Program ExternalId",
+    "description": "Unique identifier for the event on Impexium. Required for validating access restrictions on Program and Claim Items."
+  },
+  "EducationProgram_Item_VerificationTemplate": {
+    "name": "Verification Template",
+    "description": "Set the template which has to be filled out by the user who is attempting to claim this item."
+  },
+  "EducationProgram_Filtering": {
+    "name": "Filtering Programs",
+    "description": "Filter programs based on your preferences."
+  },
+  "EducationProgram_Status_Actions": {
+    "name": "Status Actions",
+    "description": "Status actions can be performed to change the status of the program."
+  },
+  "EducationProgram_Status_Activate": {
+    "name": "Activate Claiming",
+    "description": "Once a program has been actived the users can make claims(Additionally for the claimer to be able to claim the begin and end date must be set correct and the user must pass the restrictions)."
+  },
+  "EducationProgram_Status_Pause": {
+    "name": "Pause Claiming",
+    "description": "When a program is paused then claiming is disabled."
+  },
+  "EducationProgram_Status_Archive": {
+    "name": "Archive Program",
+    "description": "Archive a program it's not being used frequently and might be deleted in the future(After archiving delete option is enabled)."
+  },
+  "EducationProgram_Status_Unarchive": {
+    "name": "Unarchive Program",
+    "description": "Unarchiving a program returns it in a paused state where claiming hasn't been enabled(This action can be reverted)."
+  },
+  "EducationProgram_Delete": {
+    "name": "Delete Program",
+    "description": "Deleting a program is an irreversible action and will remove the program and all related data."
+  },
+  "EducationProgram_Description": {
+    "name": "Program Description",
+    "description": "Add the description that will be displayed to the claimer."
+  },
+  "EducationProgram_ClaimLabel": {
+    "name": "Claim Button Label",
+    "description": "The text set here will be displayed on the claim button."
+  },
+  "EducationProgram_ItemLabel": {
+    "name": "Item Label",
+    "description": "This label will be used to refer to the items list wherever it's being rendered."
   }
 }
