@@ -337,7 +337,7 @@
   },
   "EducationProgram_Category": {
     "name": "Program Category",
-    "description": "Assign a category to the program. The category is important since it can be used to filter by and can also be important for the claimer to filter the programs by."
+    "description": "Assign a category to the program. The category is important since it can be used to filter programs and also groups the programs for the claimer."
   },
   "EducationProgram_BeginDate": {
     "name": "Program Begin Date",
@@ -353,23 +353,23 @@
   },
   "EducationProgram_SubmitActions": {
     "name": "Submit Actions",
-    "description": "Submit Actions can be used to perform some external action on submit(e.g we can configure a submit actions to grant credits in impexium on submit)."
+    "description": "Submit Actions can be used to perform some external action once a claim is submitted (e.g we can configure a submit action to grant credits in Impexium once a claim is submitted)."
   },
   "EducationProgram_UseUsers": {
     "name": "Use Users",
-    "description": "Enabeling this will allow us to add a list of users and a template which the claiming user would have to fill out for each of these users in order to complete their claim."
+    "description": "Enabling this will allow us to add a list of users and a template which the claiming user would have to fill out for each of these users in order to complete their claim."
   },
   "EducationProgram_UsersLabel": {
     "name": "Users Label",
-    "description": "This label will be used to refer to the users list wherever it's being rendered."
+    "description": "This label will be used to refer to the users list wherever it's being displayed."
   },
   "EducationProgram_UseRatables": {
     "name": "Use Ratables",
-    "description": "Enabeling this will allow us to add a list of ratables which the claiming user would have to fill out in order to complete their claim."
+    "description": "Enabling this will allow us to add a list of ratables which the claiming user would have to fill out in order to complete their claim."
   },
   "EducationProgram_RatablesLabel": {
     "name": "Ratables Label",
-    "description": "This label will be used to refer to the ratables list wherever it's being rendered."
+    "description": "This label will be used to refer to the ratables list wherever it's being displayed."
   },
   "EducationProgram_RatablesScale": {
     "name": "Ratables Scale",
@@ -381,7 +381,7 @@
   },
   "EducationProgram_UseVerification": {
     "name": "Use Verification",
-    "description": "Enabeling this will allow us to add a template which the claiming user would have to fill out with the correct answers in order to complete their claim."
+    "description": "Enabling this will allow us to add a template which the claiming user would have to fill out with the correct answers in order to complete their claim."
   },
   "EducationProgram_VerificationMaxAttempts": {
     "name": "Verification Max Attempts",
@@ -401,15 +401,15 @@
   },
   "EducationProgram_ProviderCertificateOverrides": {
     "name": "Provider Certificate Overrides",
-    "description": "Override the default certificate of provider for this program."
+    "description": "Override the default certificate template for provider(s) in this program."
   },
   "EducationProgram_UserRestrictions": {
     "name": "User Restrictions",
-    "description": "Specify restrictions for which users can claim in this program."
+    "description": "Specify restrictions for which users are allowed to claim from this program and it's associated claim items."
   },
   "EducationProgram_Action_ActionType": {
     "name": "Action Type",
-    "description": "Specify the action type that will be performed on submit."
+    "description": "Specify the action type that will be performed once a claim is submitted."
   },
   "EducationProgram_Item_Name": {
     "name": "Name",
@@ -449,11 +449,11 @@
   },
   "EducationProvider_ProfileField_PlaceholderName": {
     "name": "PlaceholderName",
-    "description": "Specify the profile field placeholder name."
+    "description": "Specify the profile field placeholder name. This is the placeholder you will have to use in the certificate template."
   },
   "EducationProvider_ProfileField_FieldName": {
     "name": "EducationProvider_FieldName",
-    "description": "Specify the profile field field name."
+    "description": "Specify the profile field name. This is the field name the claimer will see when filling out their provider profile."
   },
   "EducationProgram_ExternalId": {
     "name": "Program ExternalId",
@@ -461,11 +461,11 @@
   },
   "EducationProgram_Item_VerificationTemplate": {
     "name": "Verification Template",
-    "description": "Set the template which has to be filled out by the user who is attempting to claim this item."
+    "description": "Set the template which has to be filled out by the user who is attempting to claim this item, to verify their attendance."
   },
   "EducationProgram_Filtering": {
     "name": "Filtering Programs",
-    "description": "Filter programs based on your preferences."
+    "description": "Specify criteria on which programs will be shown."
   },
   "EducationProgram_Status_Actions": {
     "name": "Status Actions",
