@@ -502,5 +502,9 @@
   "EducationProgram_ItemLabel": {
     "name": "Item Label",
     "description": "This label will be used to refer to the items list wherever it's being rendered."
+  },
+  "EducationProvider_PreferredCredits": {
+    "name": "Preferred Credits",
+    "description": "Select those credits that you would like to see. Note: Once at least one credit is selected, only programs that offer those selected credits will be shown."
   }
 }
