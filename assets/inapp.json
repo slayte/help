@@ -506,5 +506,13 @@
   "EducationProvider_PreferredCredits": {
     "name": "Preferred Credits",
     "description": "Select those credits that you would like to see. Note: Once at least one credit is selected, only programs that offer those selected credits will be shown."
+  },
+  "EducationProgram_Item_Description": {
+    "name": "Description",
+    "description": "Provide a description of the Program Item."
+  },
+  "EducationProgram_AdminNotificationEmails": {
+    "name": "Admin Notification Emails",
+    "description": "List of emails to be emailed about all notifications in this program."
   }
 }
