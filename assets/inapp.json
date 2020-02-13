@@ -512,7 +512,7 @@
     "description": "Provide a description of the Program Item."
   },
   "EducationProgram_AdminNotificationEmails": {
-    "name": "Submit Action Notification Email List",
-    "description": "Provide a list of emails to be notified when claim actions fail."
+    "name": "Admin Notification Emails",
+    "description": "List of emails to be emailed about all notifications in this program."
   }
 }
