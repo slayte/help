@@ -514,5 +514,9 @@
   "EducationProgram_AdminNotificationEmails": {
     "name": "Admin Notification Emails",
     "description": "List of emails to be emailed about all notifications in this program."
+  },
+  "MentionInput": {
+    "name": "Placeholder Input",
+    "description": "Compose a template with placeholders that will be replaced later. Type regular text and press @ to open the list of placeholders, continue typing to narrow down your search for a placeholder. Press TAB or ENTER to select"
   }
 }
