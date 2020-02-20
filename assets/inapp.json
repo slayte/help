@@ -521,10 +521,10 @@
   },
   "EducationProgram_Copy_Program": {
     "name": "Copy Program",
-    "description": "Make a copy of this program. General feedback and Speaker feedback templates will be copied(not linked). Only Program related restrictions will be copied as well. NOTE: No claimable items will eb copied. "
+    "description": "Make a copy of this program. General feedback and Speaker feedback templates will be copied(not linked). Only Program related restrictions will be copied as well. NOTE: No claimable items will be copied. "
   },
   "EducationProvider_ProfileField_Required": {
     "name": "Required Profile Field",
-    "description": "Indicate this field as required in the certificate template. Claimers will not be able to generate their certificicate untill they provide this value."
+    "description": "Indicate this field as required in the certificate template. Claimers will not be able to generate their certificicate until they provide this value."
   }
 }
