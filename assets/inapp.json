@@ -526,5 +526,9 @@
   "EducationProvider_ProfileField_Required": {
     "name": "Required Profile Field",
     "description": "Indicate this field as required in the certificate template. Claimers will not be able to generate their certificicate until they provide this value."
+  },
+  "Event_Exhibitor_Exclusive_Session_Video_Link": {
+    "name": "Session Video Link",
+    "description": "Add a link to a video that will be played 10 minutes to the beginning of the session."
   }
 }
