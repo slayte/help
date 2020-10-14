@@ -526,5 +526,33 @@
   "EducationProvider_ProfileField_Required": {
     "name": "Required Profile Field",
     "description": "Indicate this field as required in the certificate template. Claimers will not be able to generate their certificicate until they provide this value."
+  },
+  "CallSettings_Voting_Deadline": {
+    "name": "Deadline",
+    "description": "Set a deadline until when votes will be accepted."
+  },
+  "CallSettings_Voting_SourcePhase": {
+    "name": "Source Phase",
+    "description": "Select the phase where the submissions were collected that you'd like to collect votes for."
+  },
+  "CallSettings_Voting_TitleField": {
+    "name": "Title Field",
+    "description": "Select what submitters see as the title of the item vote for. The title will be displayed on the list, but voters can still open each submission to see the list of visible fields"
+  },
+  "CallSettings_Voting_DetailFields": {
+    "name": "Detail Fields",
+    "description": "Control which fields of the submission will be shown to the voter."
+  },
+  "CallSettings_Voting_Mechanism": {
+    "name": "Voting Mechanism",
+    "description": "Select what type of vote to collect."
+  },
+  "CallSettings_Voting_Limit": {
+    "name": "Voting Limit",
+    "description": "Set how many votes each user can cast."
+  },
+  "CallSettings_Voting_Restrictions": {
+    "name": "Voting Restrictions",
+    "description": "Add restrictions to allow only matching users to cast a vote. By default every registered user is allowed to vote."
   }
 }
