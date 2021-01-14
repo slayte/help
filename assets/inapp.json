@@ -527,6 +527,18 @@
     "name": "Required Profile Field",
     "description": "Indicate this field as required in the certificate template. Claimers will not be able to generate their certificicate until they provide this value."
   },
+  "CallSettings_Submission_Library_Phases": {
+    "name": "Source phase",
+    "description": "Select a phase from which submissions will be added to the library"
+  },
+  "CallSettings_Submission_Library_TitleField": {
+    "name": "Submission Title",
+    "description": "Select a field that will be set as the submission's title in the submission library."
+  },
+  "CallSettings_Submission_Library_DetailFields": {
+    "name": "Submission Detail",
+    "description": "Select field(s) whose values will be displayed in submission library."
+  },
   "CallSettings_Voting_Deadline": {
     "name": "Deadline",
     "description": "Set a deadline until when votes will be accepted."
