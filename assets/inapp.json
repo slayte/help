@@ -566,5 +566,9 @@
   "CallSettings_Voting_Restrictions": {
     "name": "Voting Restrictions",
     "description": "Add restrictions to allow only matching users to cast a vote. By default every registered user is allowed to vote."
+  },
+  "CallPhases_SubmissionSettings_EditSubmissions": {
+    "name": "Submission Edit",
+    "description": "Enable editing of all submissions in this call. Submission edit period can be limited by setting a deadline. "
   }
 }
